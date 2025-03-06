@@ -203,7 +203,7 @@ function hideClass(name) {
     Runner.keycodes = {
         JUMP: {
             '32': 1
-        }, // Up, spacebar
+        }, // apacebar
         DUCK: {
             '18': 1
         }, // Down
