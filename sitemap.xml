@@ -10,11 +10,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://niklaswerthmann.de/index.html</loc>
-  <lastmod>2025-03-08T21:57:27+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
   <loc>https://niklaswerthmann.de/about.html</loc>
   <lastmod>2025-03-08T21:57:27+00:00</lastmod>
   <priority>0.80</priority>
@@ -27,7 +22,7 @@
 <url>
   <loc>https://niklaswerthmann.de/cv/Niklas_Werthmann_CV.pdf</loc>
   <lastmod>2025-03-08T21:57:27+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.40</priority>
 </url>
 
 </urlset>
