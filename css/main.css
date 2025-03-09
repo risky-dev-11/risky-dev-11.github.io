@@ -1591,6 +1591,17 @@ h4 {
     --gitlabmono: "custom_font_gitlabmono"
 }
 
+.contribution-chart-container {
+    width: 100%;  /* Adjust based on your desired container width */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    display: flex; /* Align image in the container */
+}
+  
+.contribution-chart {
+    min-width: 800px;
+    width: 100%;
+}
+
 .fadeInUp-animation {
     opacity: 0;
     animation: fadeIn 0.4s ease-in forwards;
