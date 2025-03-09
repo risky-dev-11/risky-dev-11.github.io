@@ -1590,3 +1590,29 @@ h4 {
 .__variable_44f51c {
     --gitlabmono: "custom_font_gitlabmono"
 }
+
+.fadeInUp-animation {
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply staggered delay to each element */
+.fadeInUp-animation:nth-child(1) { animation-delay: 0.1s; }
+.fadeInUp-animation:nth-child(2) { animation-delay: 0.2s; }
+.fadeInUp-animation:nth-child(3) { animation-delay: 0.3s; }
+.fadeInUp-animation:nth-child(4) { animation-delay: 0.4s; }
+.fadeInUp-animation:nth-child(5) { animation-delay: 0.5s; }
+.fadeInUp-animation:nth-child(6) { animation-delay: 0.6s; }
+.fadeInUp-animation:nth-child(7) { animation-delay: 0.7s; }
+.fadeInUp-animation:nth-child(8) { animation-delay: 0.8s; }
+.fadeInUp-animation:nth-child(9) { animation-delay: 0.9s; }
+.fadeInUp-animation:nth-child(10) { animation-delay: 1.0; }
