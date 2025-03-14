@@ -1623,3 +1623,39 @@ h4 {
 .fadeInUp-animation:nth-child(8) { animation-delay: 0.8s; }
 .fadeInUp-animation:nth-child(9) { animation-delay: 0.9s; }
 .fadeInUp-animation:nth-child(10) { animation-delay: 1.0; }
+
+#projects-section a{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    position: relative;
+}
+  
+.glowing::before {
+    content: '';
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    background: linear-gradient(45deg, #D500F9, #C2185B, #7B1FA2, #FF1744, #42A5F5);
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    z-index: -1;
+    animation: glower 10s linear infinite;
+    border-radius: 0.6rem;
+    filter: blur(8px);
+}
+  
+@keyframes glower {
+    0% {
+        background-position: 0 0;
+    }
+    
+    50% {
+        background-position: 400% 0;
+    }
+    
+    100% {
+        background-position: 0 0;
+    }
+}
